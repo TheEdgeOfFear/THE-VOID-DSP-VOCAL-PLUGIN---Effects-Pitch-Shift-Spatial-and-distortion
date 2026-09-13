@@ -15,36 +15,6 @@ Whether tracking razor-sharp industrial screams like *Marilyn Manson* and *Natha
 
 ---
 
-## Repository Structure
-
-```
-THE-VOID-DSP-VOCAL-PLUGIN---Effects-Pitch-Shift-Spatial-and-distortion/
-├── VST3/
-│   ├── THE VOID.vst3/                           # Complete 64-bit VST3 bundle with moduleinfo
-│   └── INSTALL_THE_VOID_VST3.bat                # Automated 1-click Windows VST3 Installer
-├── DLL/
-│   └── THE VOID.dll                             # Standalone 64-bit VST/PE dynamic library
-├── Standalone/
-│   └── THE VOID.exe                             # Zero-host standalone application with native ASIO
-├── Raw Files/
-│   ├── Source/                                  # Complete C++20 DSP and GUI source code
-│   │   ├── DSP/                                 # Modular DSP engines (Distortion, Pitch, Gate, Comp, Haas, Reverb)
-│   │   ├── PluginProcessor.*                    # Audio engine & APVTS parameter layouts
-│   │   ├── PluginEditor.*                       # Hardware-textured graphical interface
-│   │   ├── VoidLookAndFeel.h                   # Custom industrial UI widgets & glowing jewel LEDs
-│   │   ├── VoidPresets.h                        # Factory preset definitions
-│   │   ├── PresetManager.h                      # JSON preset persistence manager
-│   │   └── MidiManager.h                        # Universal MIDI CC learn engine
-│   ├── BACKGROUND IMAGE/                        # Embedded background artwork assets & renders
-│   ├── asiosdk/                                 # Steinberg ASIO SDK headers
-│   └── CMakeLists.txt                           # Self-contained CMake multi-target build script
-├── THE VOID.png                                 # Hero interface graphic
-├── LICENSE                                      # Project license
-└── README.md                                    # Documentation and user manual
-```
-
----
-
 ## Signal Architecture & Routing
 
 ```
@@ -250,7 +220,15 @@ cmake -B build -G "Visual Studio 17 2022" -A x64
 # Build Release binaries (VST3 & Standalone)
 cmake --build build --config Release --target TheVoid_All
 ```
+---
 
+All the raw files are supplied for your adjustments and builds - stay RAD Metal Heads... The Edge Of Fear 
+
+Youtube Channel - https://www.youtube.com/@theedgeoffearmetal
+
+Instagram - https://www.instagram.com/theedgeoffear/
+
+Soundcloud - https://soundcloud.com/user-290758847
 ---
 
 ## License & Credits
